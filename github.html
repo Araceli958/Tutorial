@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title>proyecto</title>
+        <meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/estilos.css">
-		<link rel="stylesheet" type="text/css" href="css/slider.css">
 
 </head>
 <body>
@@ -18,81 +18,33 @@
 			</ul>
 		</nav>
     </header>	
+    <div class="texto">
+        <div>
+            <img src="img/hub.png" class="logo1">  		
+    	    <h2>Procedimiento para almacenar proyecto en GIT HUB</h2>    
+        </div>
 
-    <div>
-    	<img src="img/hub.png" class="logo1">  		
-    	<h2>Procedimiento para almacenar proyecto en GIT HUB</h2>    
+        <div class="apartado">
+    	    <h3>Paso 1</h3><br>
+    	    <p>En el primer paso se debe ingresar a la cuenta de GIT HUB, y se crea un nuevo repositorio con el nombre de Tutorial </p>
+    	    <br>
+    	    <img src="img/repositorio.png" class="imagenes">
+        </div>
+
+        <div class="apartado">
+    	    <h3>Paso 2</h3><br>
+    	    <p>Despues nos mostrara que ya se creo y los comandos para poder almacenar el proyecto que se realizo</p>
+    	    <br>
+    	    <img src="img/comandos.png" class="imagenes">
+       </div>
+    
+        <div class="apartado">
+            <h3>Paso 3</h3><br>
+            <p>Para este paso se ejecutaran los comandos que se encuentran anteriormente desde la consola, para que se pueda almacenar el proyecto en GIT HUB el caso del comando  <strong> git init, git commit -m "primer compromiso" y git branch -M main </strong> ya no se ejecuatn ya que se utilizaron durante el proceso anterior. como se muetra  en el ejemplo</p>
+            <br>
+           <img src="img/comando2.png" class="imagenes">
+        </div>     
     </div>
-
-    <div class="apartado">
-    	<h3>Paso 1</h3><br>
-    	<p>Como primer paso se crea una nueva carpeta que es donde se guardara el archivo que se utilizara y se manda a traer en el editor que se quiera utilizar en este caso es Sublime text.    	
-    	</p>
-    	<br>
-    	<img src="img/archivo.png" class="imagenes">
-    </div>
-
-    <div class="apartado">
-    	<h3>Paso 2</h3><br>
-    	<p>En sublime text se crea el archivo index.html y se guarda en la carpeta</p>
-    	<br>
-    	<img src="img/sublime.png" class="imagenes">
-    </div>
-
-    <div class="apartado">
-    	<h3>Paso 3</h3><br>
-    	<p>Ingresamos a la consola  y nos redirigimos a la ruta donde esta  la carpeta o tambi&eacute;n colocando el cursor en la ruta donde esta guardada y colocar  <strong>cmd</strong>. Despu&eacute;s utilizamos el comando <strong>git init</strong> el cual se utiliza una sola vez durante la configuraci&oacute;n inicial de un proyecto nuevo.       
-          </p>
-    	<br>
-    	<img src="img/init.png" class="imagenes">
-    </div> 
-	<div class="apartado">
-    	<h3>Paso 4</h3><br>
-    	<p>Ingresamos el comando <strong>git status</strong> para que  nos muestre el estado del directorio de trabajo (proyecto), tambi&eacute;n nos permite ver los cambios que se han realizado, los que no y los archivos que se tienen en la carpeta. El archivo de index.html esta en color rojo por que a&uacute;n no se a agregado.
-        </p>
-    	<br>
-    	<img src="img/status.png" class="imagenes">
-    </div>        
-
-    <div class="apartado">
-    	<h3>Paso 5</h3><br>
-    	<p> Se inserta el comando <strong>git add</strong> para agregar y indicar a Git que se quiere incluir actualizaciones en el archivo. Para ver el cambio se inserta de nuevo el comando git status.
-        </p>
-    	<br>
-    	<img src="img/add.png" class="imagenes">
-    </div> 
-    <div class="apartado">
-    	<h3>Paso 6</h3><br>
-    	<p> Se configura el  nombre de usuario y direcci&oacute;n de correo electr&oacute;nico, con el comando <strong>git config --global user.name  y  git config --global user.email. </strong> 
-        </p>
-    	<br>
-    	<img src="img/global.png" class="imagenes">
-    </div>
-    <div class="apartado">
-    	<h3>Paso 7</h3><br>
-    	<p> Para este ultimo paso se inserta el comando <strong> git commit –m</strong> para capturar los cambios que se tienen en ese momento del proyecto. De esta manera se quedara guardada la primera versi&oacute;n  
-        Despu&eacute;s ponemos el comando <strong> git log</strong> para ver que si se guardo la versi&oacute;n "mostrando la fecha y el nombre de la versi&oacute;n"
-        </p>
-    	<br>
-    	<img src="img/commit.png" class="imagenes">
-    </div>     
-</div>
 <br><br><br>
-
-
 </body>
 </html>
-
-
-- git checkout
-- git restore
-- git diff
-- git branch
-- git clone
--git fetch
-- git merge
-- git push
-- git pull
-- git rm
-- git switch
-- git remote

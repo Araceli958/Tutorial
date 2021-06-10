@@ -36,6 +36,7 @@ header{
 	display: block;
 	color: white;
 	margin-top: 10px;
+	font-size: 18px;
 
 }
 
@@ -90,10 +91,20 @@ img{ width: 25px;
 
 h2{
 	margin-top: 30px;
-	margin-left: 20px;
+	margin-left: 25px;
 	text-align: center;
+	color: #246ca9;
 }
 
+h3{
+	color: black;
+	font-size: 23px;
+}
+p{
+	text-align: justify;
+	font-size: 20px;
+	color: black
+}
 
 .logo{
 	width: 140px;
@@ -104,7 +115,7 @@ h2{
 .logo1{
 	width: 80px;
 	height: 50px;
-	margin-left: 50%;
+	margin-left: 40%;
 }
 .apartado{
 	margin-top: 70px;
@@ -117,6 +128,10 @@ h2{
 	margin-left: 90px;
 }
 
+.texto{
+	width: 80%;
+	margin-left: 5%
+}
 
 /* responsividad*/
 
